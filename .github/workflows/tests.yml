@@ -1,0 +1,41 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+env:
+  GOPROXY: "https://proxy.golang.org"
+  GO111MODULE: "on"
+
+jobs:
+  test:
+    name: Test
+    strategy:
+      matrix:
+        go-version: [1.14.x, 1.15.x]
+        platform: [ubuntu-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - name: Install Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: ${{ matrix.go-version }}
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run unit tests
+        run: |
+          # go mod init guanguans/id-validator
+          go test -v -race -coverprofile=coverage -covermode=atomic ./...
+      - name: Upload coverage report to Codecov
+        uses: codecov/codecov-action@v1.0.6
+        with:
+          file: ./coverage
+          flags: unittests
+      - name: Cache downloaded modules
+        uses: actions/cache@v1
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
