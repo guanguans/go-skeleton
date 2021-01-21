@@ -27,6 +27,7 @@ jobs:
         run: |
           # go mod init guanguans/go-skeleton
           go test -v -race -coverprofile=coverage -covermode=atomic ./...
+          curl --location --request GET 'https://gocover.io/github.com/guanguans/go-skeleton'
       - name: Upload coverage report to Codecov
         uses: codecov/codecov-action@v1.0.6
         with:
