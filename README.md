@@ -2,7 +2,7 @@
 
 > A Golang package template repository. - 一个 Golang 软件包模板存储库。
 
-[![tests](https://github.com/guanguans/go-skeleton/workflows/Tests/badge.svg)](https://github.com/guanguans/go-skeleton/actions)
+[![tests](https://github.com/guanguans/go-skeleton/workflows/tests/badge.svg)](https://github.com/guanguans/go-skeleton/actions)
 [![gocover.io](https://gocover.io/_badge/github.com/guanguans/go-skeleton)](https://gocover.io/github.com/guanguans/go-skeleton)
 [![Go Report Card](https://goreportcard.com/badge/github.com/guanguans/go-skeleton)](https://goreportcard.com/report/github.com/guanguans/go-skeleton)
 [![GoDoc](https://godoc.org/github.com/guanguans/go-skeleton?status.svg)](https://godoc.org/github.com/guanguans/go-skeleton)

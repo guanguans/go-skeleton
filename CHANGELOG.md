@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `guanguans/id-validator` will be documented in this file
+All notable changes to `guanguans/go-skeleton` will be documented in this file
 
 ## 1.0.0 - 2021-xx-xx
 
