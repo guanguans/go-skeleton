@@ -42,7 +42,7 @@ import (
 )
 
 func main() {
-	ffmt.P(skeleton.ReturnTrue())
+	ffmt.P(skeleton.ReturnSelf("go-skeleton"))
 }
 ```
 

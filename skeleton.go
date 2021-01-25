@@ -1,6 +1,6 @@
 package skeleton
 
-// Return true.
-func ReturnTrue() bool {
-	return true
+// Return self.
+func ReturnSelf(str string) string {
+	return str
 }
