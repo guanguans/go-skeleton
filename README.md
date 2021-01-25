@@ -49,7 +49,8 @@ func main() {
 ## Testing
 
 ``` bash
-$ go test
+$ make test
+$ make bench
 ```
 
 ## Changelog
