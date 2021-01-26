@@ -1,6 +1,6 @@
 # go-skeleton
 
-> A Golang package template repository. - 一个 Golang 软件包模板存储库。
+> A Go package template repository. - 一个 Go 软件包模板存储库。
 
 [![tests](https://github.com/guanguans/go-skeleton/workflows/tests/badge.svg)](https://github.com/guanguans/go-skeleton/actions)
 [![gocover.io](https://gocover.io/_badge/github.com/guanguans/go-skeleton)](https://gocover.io/github.com/guanguans/go-skeleton)
