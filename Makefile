@@ -1,5 +1,6 @@
 # note: call scripts from /scripts
 GOCMD=GO111MODULE=on go
+GOTESTCMD=GO111MODULE=on gotest
 LOCALCMD=/usr/local
 
 linters-install:
@@ -18,7 +19,7 @@ vet:
 	$(GOCMD) vet ./.
 
 test:
-	$(GOCMD) test -cover -race ./...
+	$(GOTESTCMD) -cover -race ./...
 
 bench:
-	$(GOCMD) test -bench=. -benchmem ./...
+	$(GOTESTCMD) -bench=. -benchmem ./...
