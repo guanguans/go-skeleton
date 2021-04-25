@@ -19,7 +19,10 @@ vet:
 	$(GOCMD) vet ./.
 
 test:
-	$(GOTESTCMD) -cover -race ./...
+	$(GOTESTCMD) -cover -coverprofile=cover.out -race ./... -v
+
+test-cover:
+	$(GOCMD) tool cover -html=cover.out
 
 bench:
-	$(GOTESTCMD) -bench=. -benchmem ./...
+	$(GOTESTCMD) -bench=. -benchmem ./... -v
