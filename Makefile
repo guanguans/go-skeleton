@@ -11,7 +11,7 @@ linters-install:
 	}
 
 lint: linters-install
-	 $(LOCALCMD)/golangci-lint run
+	 $(LOCALCMD)/golangci-lint run ./...
 
 gosec-install:
 	@gosec --version >/dev/null 2>&1 || { \
