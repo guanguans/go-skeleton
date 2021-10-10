@@ -6,8 +6,12 @@
 [![gocover.io](https://gocover.io/_badge/github.com/guanguans/go-skeleton)](https://gocover.io/github.com/guanguans/go-skeleton)
 [![Go Report Card](https://goreportcard.com/badge/github.com/guanguans/go-skeleton)](https://goreportcard.com/report/github.com/guanguans/go-skeleton)
 [![GoDoc](https://godoc.org/github.com/guanguans/go-skeleton?status.svg)](https://godoc.org/github.com/guanguans/go-skeleton)
-[![GitHub release](https://img.shields.io/github/tag/guanguans/go-skeleton.svg)](https://github.com/guanguans/go-skeleton/releases)
 [![GitHub license](https://img.shields.io/github/license/guanguans/go-skeleton.svg)](https://github.com/guanguans/go-skeleton/blob/master/LICENSE)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/guanguans/go-skeleton)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/guanguans/go-skeleton)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/guanguans/go-skeleton)
+![GitHub repo size](https://img.shields.io/github/repo-size/guanguans/go-skeleton)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/guanguans/go-skeleton)
 
 ## Features
 
