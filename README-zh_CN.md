@@ -15,29 +15,29 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/guanguans/go-skeleton)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guanguans/go-skeleton)
 
-## Features
+## 功能
 
 * package template
 
-## Requirement
+## 环境要求
 
 * Go >= 1.11
 
-## Installation
+## 安装
 
 ``` shell script
 $ go get -u github.com/guanguans/go-skeleton
 ```
 
-## Usage
+## 使用
 
 1. replace `guanguans/go-skeleton` -> `your github name/your package name`
 2. replace `guanguans` -> `your github name`
 2. replace `ityaozm@gmail.com` -> `your email`
 
-This is just a quick introduction, view the [GoDoc](https://godoc.org/github.com/guanguans/go-skeleton) for details.
+这只是一个快速介绍, 请查看 [GoDoc](https://godoc.org/github.com/guanguans/go-skeleton) 获得详细信息。
 
-Let's start with a trivial example:
+让我们从一个简单的例子开始：
 
 ``` go
 package main
@@ -52,30 +52,30 @@ func main() {
 }
 ```
 
-## Testing
+## 测试
 
 ``` bash
 $ make test
 $ make bench
 ```
 
-## Changelog
+## 变更日志
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+请参阅 [CHANGELOG](CHANGELOG.md) 获取最近有关更改的更多信息。
 
-## Contributing
+## 贡献指南
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+请参阅 [CONTRIBUTING](.github/CONTRIBUTING.md) 有关详细信息。
 
-## Security Vulnerabilities
+## 安全漏洞
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+请查看[我们的安全政策](../../security/policy)了解如何报告安全漏洞。
 
-## Credits
+## 贡献者
 
 * [guanguans](https://github.com/guanguans)
-* [All Contributors](../../contributors)
+* [所有贡献者](../../contributors)
 
-## License
+## 协议
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+MIT 许可证（MIT）。有关更多信息，请参见[协议文件](LICENSE)。
