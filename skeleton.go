@@ -1,6 +1,6 @@
 package skeleton
 
-// Return self.
+// ReturnSelf Return self.
 func ReturnSelf(str string) string {
 	return str
 }
