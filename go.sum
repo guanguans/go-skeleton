@@ -1,3 +1,5 @@
+github.com/awesee/php2go v0.0.0-20211215021000-b3f4d931e27f h1:/2vvUk/1gXyWCHtdFfd2lbeATzee1tQV4NmBId6WyBA=
+github.com/awesee/php2go v0.0.0-20211215021000-b3f4d931e27f/go.mod h1:T/9jMKdf1+txKDUSRS5lRpll0Ar+/EuMrOVDcVVUT5c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fatih/color v1.9.0/go.mod h1:eQcE1qtQxscV5RaZvpXrrb8Drkc3/DdQ+uUYCNjL+zU=
 github.com/fatih/color v1.10.0 h1:s36xzo75JdqLaaWoiEHk767eHiwo0598uUxyfiPkDsg=
@@ -15,6 +17,8 @@ github.com/rakyll/gotest v0.0.6/go.mod h1:SkoesdNCWmiD4R2dljIUcfSnNdVZ12y8qK4ojD
 github.com/spf13/cast v1.4.1 h1:s0hze+J0196ZfEMTs80N7UlFt0BDuQ7Q+JDnHiMWKdA=
 github.com/spf13/cast v1.4.1/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/syyongx/php2go v0.9.5 h1:0BASo4ZDkCkLP3s+CeO4wUbiLT9f9WVBhuf9M2JBfQg=
+github.com/syyongx/php2go v0.9.5/go.mod h1:meN2eIhhUoxOd2nMxbpe8g6cFPXI5O9/UAAuz7oDdzw=
 golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20200116001909-b77594299b42/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
