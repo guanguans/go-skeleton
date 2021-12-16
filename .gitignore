@@ -21,3 +21,5 @@
 .history/
 tests.go
 coverage.xml
+
+dist/
