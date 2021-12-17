@@ -36,3 +36,11 @@ test-cover:
 
 bench:
 	$(GOTESTCMD) -bench=. -benchmem ./... -v
+
+# goreleaser init
+# goreleaser check
+# goreleaser build --single-target
+# goreleaser release --snapshot --rm-dist
+# goreleaser release
+goreleaser:
+	$(LOCALCMD)/goreleaser
