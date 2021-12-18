@@ -7,7 +7,7 @@
 [![tests](https://github.com/guanguans/go-skeleton/workflows/tests/badge.svg)](https://github.com/guanguans/go-skeleton/actions)
 [![gocover.io](https://gocover.io/_badge/github.com/guanguans/go-skeleton)](https://gocover.io/github.com/guanguans/go-skeleton)
 [![Go Report Card](https://goreportcard.com/badge/github.com/guanguans/go-skeleton)](https://goreportcard.com/report/github.com/guanguans/go-skeleton)
-[![GoDoc](https://godoc.org/github.com/guanguans/go-skeleton?status.svg)](https://godoc.org/github.com/guanguans/go-skeleton)
+[![GoDoc](https://pkg.go.dev/github.com/guanguans/go-skeleton?status.svg)](https://pkg.go.dev/github.com/guanguans/go-skeleton)
 [![GitHub license](https://img.shields.io/github/license/guanguans/go-skeleton.svg)](https://github.com/guanguans/go-skeleton/blob/master/LICENSE)
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/guanguans/go-skeleton)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/guanguans/go-skeleton)
@@ -36,7 +36,7 @@ $ go get -u github.com/guanguans/go-skeleton
 3. replace `guanguans` -> `your github name`
 4. replace `ityaozm@gmail.com` -> `your email`
 
-这只是一个快速介绍, 请查看 [GoDoc](https://godoc.org/github.com/guanguans/go-skeleton) 获得详细信息。
+这只是一个快速介绍, 请查看 [GoDoc](https://pkg.go.dev/github.com/guanguans/go-skeleton) 获得详细信息。
 
 让我们从一个简单的例子开始：
 
