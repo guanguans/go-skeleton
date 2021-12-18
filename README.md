@@ -25,7 +25,7 @@
 
 ## Installation
 
-``` shell script
+```shell script
 $ go get -u github.com/guanguans/go-skeleton
 ```
 
@@ -40,7 +40,7 @@ This is just a quick introduction, view the [GoDoc](https://pkg.go.dev/github.co
 
 Let's start with a trivial example:
 
-``` go
+```go
 package main
 
 import (
@@ -55,7 +55,7 @@ func main() {
 
 ## Testing
 
-``` bash
+```shell script
 $ make test
 $ make bench
 ```

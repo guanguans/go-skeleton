@@ -25,7 +25,7 @@
 
 ## 安装
 
-``` shell script
+```shell script
 $ go get -u github.com/guanguans/go-skeleton
 ```
 
@@ -40,7 +40,7 @@ $ go get -u github.com/guanguans/go-skeleton
 
 让我们从一个简单的例子开始：
 
-``` go
+```go
 package main
 
 import (
@@ -55,7 +55,7 @@ func main() {
 
 ## 测试
 
-``` bash
+```shell script
 $ make test
 $ make bench
 ```
