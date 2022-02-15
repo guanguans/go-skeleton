@@ -11,8 +11,8 @@ github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
-github.com/syyongx/php2go v0.9.5 h1:0BASo4ZDkCkLP3s+CeO4wUbiLT9f9WVBhuf9M2JBfQg=
-github.com/syyongx/php2go v0.9.5/go.mod h1:meN2eIhhUoxOd2nMxbpe8g6cFPXI5O9/UAAuz7oDdzw=
+github.com/syyongx/php2go v0.9.6 h1:NFJlFwV5SKonYE7e/EtAcVxaJAVX9piRLpapw23HOQ8=
+github.com/syyongx/php2go v0.9.6/go.mod h1:meN2eIhhUoxOd2nMxbpe8g6cFPXI5O9/UAAuz7oDdzw=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/ffmt.v1 v1.5.6 h1:4Bu3riZp5sAIXW2T/18JM9BkwJLodurXFR0f7PXp+cw=
