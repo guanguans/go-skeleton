@@ -44,3 +44,5 @@ bench:
 # goreleaser release
 goreleaser:
 	$(LOCALCMD)/goreleaser
+
+.PHONY: linters-install gosec-install fmt vet test test-cover bench goreleaser

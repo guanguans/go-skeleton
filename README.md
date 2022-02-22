@@ -44,7 +44,7 @@ Let's start with a trivial example:
 package main
 
 import (
-	"github.com/guanguans/skeleton"
+	"github.com/guanguans/go-skeleton"
 	"gopkg.in/ffmt.v1"
 )
 

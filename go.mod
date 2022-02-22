@@ -1,4 +1,4 @@
-module github.com/guanguans/skeleton
+module github.com/guanguans/go-skeleton
 
 go 1.14
 

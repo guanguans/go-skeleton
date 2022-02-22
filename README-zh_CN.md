@@ -44,7 +44,7 @@ $ go get -u github.com/guanguans/go-skeleton
 package main
 
 import (
-	"github.com/guanguans/skeleton"
+	"github.com/guanguans/go-skeleton"
 	"gopkg.in/ffmt.v1"
 )
 

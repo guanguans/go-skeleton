@@ -7,7 +7,7 @@ package main
 import (
 	"github.com/awesee/php2go/php"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/guanguans/skeleton"
+	"github.com/guanguans/go-skeleton"
 	"github.com/spf13/cast"
 	"github.com/syyongx/php2go"
 	"gopkg.in/ffmt.v1"
