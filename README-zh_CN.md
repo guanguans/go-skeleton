@@ -32,9 +32,10 @@ $ go get -u github.com/guanguans/go-skeleton
 ## 使用
 
 1. replace `guanguans/go-skeleton` -> `your github name/your repository name`
-2. replace `skeleton` -> `your package name`
-3. replace `guanguans` -> `your github name`
-4. replace `ityaozm@gmail.com` -> `your email`
+2. replace `go-skeleton` -> `your repository name`
+3. replace `skeleton` -> `your package name`
+4. replace `guanguans` -> `your github name`
+5. replace `ityaozm@gmail.com` -> `your email`
 
 这只是一个快速介绍, 请查看 [GoDoc](https://pkg.go.dev/github.com/guanguans/go-skeleton) 获得详细信息。
 
