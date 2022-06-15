@@ -32,9 +32,10 @@ $ go get -u github.com/guanguans/go-skeleton
 ## Usage
 
 1. replace `guanguans/go-skeleton` -> `your github name/your repository name`
-2. replace `skeleton` -> `your package name`
-3. replace `guanguans` -> `your github name`
-4. replace `ityaozm@gmail.com` -> `your email`
+2. replace `go-skeleton` -> `your repository name`
+3. replace `skeleton` -> `your package name`
+4. replace `guanguans` -> `your github name`
+5. replace `ityaozm@gmail.com` -> `your email`
 
 This is just a quick introduction, view the [GoDoc](https://pkg.go.dev/github.com/guanguans/go-skeleton) for details.
 
@@ -55,7 +56,7 @@ func main() {
 
 ## Testing
 
-```shell script shell script
+```shell script
 $ make test
 $ make bench
 ```
