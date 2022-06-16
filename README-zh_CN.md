@@ -14,6 +14,7 @@
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/guanguans/go-skeleton)
 ![GitHub repo size](https://img.shields.io/github/repo-size/guanguans/go-skeleton)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guanguans/go-skeleton)
+![GitHub all releases](https://img.shields.io/github/downloads/guanguans/go-skeleton/total)
 
 ## 功能
 
