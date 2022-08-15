@@ -48,7 +48,7 @@ jobs:
       - id: release-pr
         uses: GoogleCloudPlatform/release-please-action@main
         with:
-          token: ${{ secrets.ACTIONS_BOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           release-type: go
           fork: true
           package-name: ${{env.ACTION_NAME}}
