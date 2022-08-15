@@ -13,10 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install
-        run: npm ci
-      - name: build
-        run: npm run build
       - name: commit
         run: |-
           set -e
