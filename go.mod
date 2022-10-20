@@ -8,6 +8,6 @@ require (
 	github.com/kr/pretty v0.3.1
 	github.com/spf13/cast v1.5.0
 	github.com/syyongx/php2go v0.9.7
-	github.com/zakaria-chahboun/cute v1.1.0
+	github.com/zakaria-chahboun/cute v1.2.0
 	gopkg.in/ffmt.v1 v1.5.6
 )
