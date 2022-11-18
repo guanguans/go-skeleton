@@ -25,6 +25,9 @@ gosec: gosec-install
 fmt:
 	$(GOCMD) fmt ./...
 
+fumpt:
+	$(GOBINCMD)/gofumpt -d -e -l -w -extra -modpath $(shell find $$PWD -iname "*.go" -not -iname "*pb.go" -not -iwholename "*vendor*")
+
 vet:
 	$(GOCMD) vet ./...
 
@@ -45,4 +48,4 @@ bench:
 goreleaser:
 	$(LOCALCMD)/goreleaser
 
-.PHONY: linters-install gosec-install fmt vet test test-cover bench goreleaser
+.PHONY: linters-install gosec-install fmt fumpt vet test test-cover bench goreleaser
