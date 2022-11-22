@@ -5,9 +5,11 @@
 package main
 
 import (
+	"github.com/alecthomas/repr"
 	"github.com/awesee/php2go/php"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/guanguans/go-skeleton"
+	"github.com/k0kubun/pp"
 	"github.com/kr/pretty"
 	"github.com/spf13/cast"
 	"github.com/syyongx/php2go"
@@ -36,4 +38,10 @@ func main() {
 
 	// kr/pretty
 	pretty.Println("go-skeleton")
+
+	// k0kubun/pp
+	pp.Println("go-skeleton")
+
+	// alecthomas/repr
+	repr.Println("go-skeleton")
 }
