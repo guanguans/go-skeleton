@@ -7,7 +7,7 @@ require (
 	github.com/awesee/php2go v0.0.0-20211217042709-5eed99839392
 	github.com/davecgh/go-spew v1.1.1
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
-	github.com/k0kubun/pp v2.4.0+incompatible
+	github.com/k0kubun/pp v3.0.1+incompatible
 	github.com/kr/pretty v0.3.1
 	github.com/magefile/mage v1.14.0
 	github.com/mattn/go-colorable v0.1.13 // indirect
