@@ -16,6 +16,11 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/guanguans/go-skeleton)
 ![GitHub all releases](https://img.shields.io/github/downloads/guanguans/go-skeleton/total)
 
+## 参考项目
+
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+* [golang-repo-template](https://github.com/moul/golang-repo-template)
+
 ## 功能
 
 * package template

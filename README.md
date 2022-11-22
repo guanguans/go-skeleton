@@ -15,6 +15,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/guanguans/go-skeleton)
 ![GitHub all releases](https://img.shields.io/github/downloads/guanguans/go-skeleton/total)
 
+## Reference project
+
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+* [golang-repo-template](https://github.com/moul/golang-repo-template)
+
 ## Features
 
 * package template
@@ -45,12 +50,12 @@ Let's start with a trivial example:
 package main
 
 import (
-	"github.com/guanguans/go-skeleton"
-	"gopkg.in/ffmt.v1"
+    "github.com/guanguans/go-skeleton"
+    "gopkg.in/ffmt.v1"
 )
 
 func main() {
-	ffmt.P(skeleton.ReturnSelf("go-skeleton"))
+    ffmt.P(skeleton.ReturnSelf("go-skeleton"))
 }
 ```
 
