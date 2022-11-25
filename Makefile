@@ -4,13 +4,13 @@ GOTESTCMD=GO111MODULE=on gotest
 LOCALCMD=/usr/local/bin
 GOBINCMD=/Users/yaozm/go/bin
 
-linters-install:
+lint-install:
 	@golangci-lint --version >/dev/null 2>&1 || { \
-		echo "installing linting tools..."; \
+		echo "installing lint tools..."; \
 		curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin latest; \
 	}
 
-lint: linters-install
+lint: lint-install
 	 $(LOCALCMD)/golangci-lint run ./...
 
 gosec-install:
@@ -48,4 +48,13 @@ bench:
 goreleaser:
 	$(LOCALCMD)/goreleaser
 
-.PHONY: linters-install gosec-install fmt fumpt vet test test-cover bench goreleaser
+staticcheck-install:
+	@staticcheck --version >/dev/null 2>&1 || { \
+		echo "installing staticcheck tools..."; \
+		go install honnef.co/go/tools/cmd/staticcheck@latest; \
+	}
+
+staticcheck: staticcheck-install
+	 $(GOBINCMD)/staticcheck ./...
+
+.PHONY: lint-install gosec-install fmt fumpt vet test test-cover bench goreleaser staticcheck-install staticcheck
