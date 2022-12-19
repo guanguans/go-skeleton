@@ -12,7 +12,7 @@ require (
 	github.com/magefile/mage v1.14.0
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/spf13/cast v1.5.0
-	github.com/syyongx/php2go v0.9.7
+	github.com/syyongx/php2go v0.9.8
 	github.com/zakaria-chahboun/cute v1.2.0
 	golang.org/x/sys v0.2.0 // indirect
 	gopkg.in/ffmt.v1 v1.5.6
