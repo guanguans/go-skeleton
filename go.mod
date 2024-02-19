@@ -3,7 +3,7 @@ module github.com/guanguans/go-skeleton
 go 1.14
 
 require (
-	github.com/alecthomas/repr v0.3.0
+	github.com/alecthomas/repr v0.4.0
 	github.com/awesee/php2go v0.0.0-20211217042709-5eed99839392
 	github.com/davecgh/go-spew v1.1.1
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
