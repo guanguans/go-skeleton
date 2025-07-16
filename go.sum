@@ -1,5 +1,5 @@
-github.com/alecthomas/repr v0.4.0 h1:GhI2A8MACjfegCPVq9f1FLvIBS+DrQ2KQBFZP1iFzXc=
-github.com/alecthomas/repr v0.4.0/go.mod h1:Fr0507jx4eOXV7AlPV6AVZLYrLIuIeSOWtW57eE/O/4=
+github.com/alecthomas/repr v0.5.1 h1:E3G4t2QbHTSNpPKBgMTln5KLkZHLOcU7r37J4pXBuIg=
+github.com/alecthomas/repr v0.5.1/go.mod h1:Fr0507jx4eOXV7AlPV6AVZLYrLIuIeSOWtW57eE/O/4=
 github.com/awesee/php2go v0.0.0-20211217042709-5eed99839392 h1:TQzkAUu6Lm5S9Y/mVWr0DMZDbTuuEhwmUZMojmOryKA=
 github.com/awesee/php2go v0.0.0-20211217042709-5eed99839392/go.mod h1:T/9jMKdf1+txKDUSRS5lRpll0Ar+/EuMrOVDcVVUT5c=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
