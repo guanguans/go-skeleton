@@ -3,7 +3,7 @@ module github.com/guanguans/go-skeleton
 go 1.21.0
 
 require (
-	github.com/alecthomas/repr v0.5.1
+	github.com/alecthomas/repr v0.5.2
 	github.com/awesee/php2go v0.0.0-20211217042709-5eed99839392
 	github.com/davecgh/go-spew v1.1.1
 	github.com/k0kubun/pp v3.0.1+incompatible
