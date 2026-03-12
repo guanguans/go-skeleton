@@ -8,7 +8,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/k0kubun/pp v3.0.1+incompatible
 	github.com/kr/pretty v0.3.1
-	github.com/magefile/mage v1.16.0
+	github.com/magefile/mage v1.16.1
 	github.com/spf13/cast v1.10.0
 	github.com/syyongx/php2go v0.9.9
 	github.com/zakaria-chahboun/cute v1.2.0
